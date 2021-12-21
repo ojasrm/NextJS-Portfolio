@@ -1,15 +1,15 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-const about = () => {
+const projects = () => {
 	return (
 		<div className={styles.pagesContainer}>
 			<div className="container text-center">
 				<div className="container-fluid">
-					<h1 className="display-1">About</h1>
+					<h1 className="display-1">Projects</h1>
 				</div>
 				<p>
-					This is about Page
+					This is projects Page
 					<br />
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
 					numquam.
@@ -31,4 +31,4 @@ const about = () => {
 	);
 };
 
-export default about;
+export default projects;
