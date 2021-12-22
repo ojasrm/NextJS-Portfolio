@@ -11,12 +11,12 @@ export default function Home() {
 				<meta name="description" content="Next JS Portfolio App" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="container text-center">
+			<div className="container-fluid text-center">
 				<div className="container-fluid">
 					<h1 className="display-1">Home Page</h1>
 				</div>
-				<div className="row">
-					<div className="col-5">
+				<div className="row justify-content-evenly">
+					<div className="col">
 						<h2>Title</h2>
 						<p>
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
@@ -25,10 +25,10 @@ export default function Home() {
 							corrupti perferendis aliquam doloremque odit.
 						</p>
 					</div>
-					<div className="col-7">
+					<div className="col">
 						<img
 							src="https://freesvg.org/img/abstract-user-flat-4.png"
-							height="400px"
+							height="300px"
 						/>
 					</div>
 				</div>

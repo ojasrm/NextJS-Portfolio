@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 const about = () => {
 	return (
 		<div className={styles.pagesContainer}>
-			<div className="container text-center">
+			<div className="container-fluid text-center">
 				<div className="container-fluid">
 					<h1 className="display-1">About</h1>
 				</div>
